@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Hello {
 	@GetMapping("/hello")
 	public String helloMsg() {
-		return "Welcome to Jenkins Pipeline";
+		return "Welcome to Jenkins Pipeline tutorial";
 	}
 
 }
